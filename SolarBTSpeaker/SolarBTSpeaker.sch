@@ -505,7 +505,7 @@ Wire Wire Line
 	6850 1300 7300 1300
 Connection ~ 6850 1300
 Wire Wire Line
-	7300 1300 7650 1300
+	7300 1300 7350 1300
 Connection ~ 7300 1300
 Wire Wire Line
 	6400 1300 6400 1850
@@ -2080,4 +2080,7 @@ Wire Notes Line
 	1800 4300 6700 4300
 Wire Notes Line
 	1800 7100 6700 7100
+Connection ~ 7350 1300
+Wire Wire Line
+	7350 1300 7650 1300
 $EndSCHEMATC
