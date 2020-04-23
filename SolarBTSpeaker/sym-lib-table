@@ -4,4 +4,6 @@
   (lib (name BQ2970)(type Legacy)(uri "C:/Users/mason/GitRepos/Solar Bluetooth Speaker/SolarBTSpeaker/ul_BQ29700DSER/KiCAD/2020-04-20_20-11-53/2020-04-20_20-11-53.lib")(options "")(descr "Li-Ion/Li Polymer Advanced Single-Cell Battery Protector"))
   (lib (name LM2623)(type Legacy)(uri "C:/Users/mason/GitRepos/Solar Bluetooth Speaker/SolarBTSpeaker/ul_LM2623AMMNOPB/KiCAD/2020-04-20_22-02-59/2020-04-20_22-02-59.lib")(options "")(descr "0.8V to 14V input voltage, 2A load curent, step-up DC-DC"))
   (lib (name TPA3138D2)(type Legacy)(uri "C:/Users/mason/GitRepos/Solar Bluetooth Speaker/SolarBTSpeaker/ul_TPA3138D2PWP/KiCAD/2020-04-20_21-53-00/2020-04-20_21-53-00.lib")(options "")(descr "10-W Stereo Analog Input Class-D Audio Amplifier"))
+  (lib (name CSD16404Q5A)(type Legacy)(uri "C:/Users/mason/GitRepos/Solar Bluetooth Speaker/SolarBTSpeaker/ul_CSD16404Q5A/KiCAD/2020-04-23_02-13-06/2020-04-23_02-13-06.lib")(options "")(descr "25V N-Channel MOSFET, 7.2mOhm"))
+  (lib (name MAX1771CPA+)(type Legacy)(uri "C:/Users/mason/GitRepos/Solar Bluetooth Speaker/SolarBTSpeaker/ul_max1771cpa/KiCAD/2020-04-23_15-40-37/2020-04-23_15-40-37.lib")(options "")(descr ""))
 )
