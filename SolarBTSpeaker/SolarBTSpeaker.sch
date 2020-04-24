@@ -336,7 +336,7 @@ U 1 1 5EA1505D
 P 6250 3150
 F 0 "D2" V 6197 3228 50  0000 L CNN
 F 1 "LED" V 6288 3228 50  0000 L CNN
-F 2 "" H 6250 3150 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 6250 3150 50  0001 C CNN
 F 3 "~" H 6250 3150 50  0001 C CNN
 	1    6250 3150
 	0    1    1    0   
@@ -347,7 +347,7 @@ U 1 1 5EA16437
 P 6650 3150
 F 0 "D3" V 6597 3228 50  0000 L CNN
 F 1 "LED" V 6688 3228 50  0000 L CNN
-F 2 "" H 6650 3150 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 6650 3150 50  0001 C CNN
 F 3 "~" H 6650 3150 50  0001 C CNN
 	1    6650 3150
 	0    1    1    0   
@@ -494,7 +494,7 @@ P 9550 3100
 F 0 "U4" H 10450 3357 60  0000 C CNN
 F 1 "CSD16404Q5A" H 10450 3251 60  0000 C CNN
 F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 10450 3240 60  0001 C CNN
-F 3 "" H 9850 3100 60  0000 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd16404q5a" H 10450 3251 60  0001 C CNN
 	1    9550 3100
 	1    0    0    -1  
 $EndComp
@@ -505,7 +505,7 @@ P 9550 2250
 F 0 "U3" H 10450 2507 60  0000 C CNN
 F 1 "CSD16404Q5A" H 10450 2401 60  0000 C CNN
 F 2 "Package_SON:VSONP-8-1EP_5x6_P1.27mm" H 10450 2390 60  0001 C CNN
-F 3 "" H 9850 2250 60  0000 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd16404q5a" H 9850 2250 60  0001 C CNN
 	1    9550 2250
 	1    0    0    -1  
 $EndComp
@@ -698,7 +698,7 @@ P 1800 6050
 F 0 "U6" H 2900 6687 60  0000 C CNN
 F 1 "max1771csa+" H 2900 6581 60  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2900 6590 60  0001 C CNN
-F 3 "" H 3550 6100 60  0000 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX1771.pdf" H 2900 6581 60  0001 C CNN
 	1    1800 6050
 	1    0    0    -1  
 $EndComp
@@ -769,42 +769,15 @@ U 1 1 5EAD7024
 P 4950 4850
 F 0 "L1" V 5140 4850 50  0000 C CNN
 F 1 "22u" V 5049 4850 50  0000 C CNN
-F 2 "" H 4950 4850 50  0001 C CNN
-F 3 "~" H 4950 4850 50  0001 C CNN
+F 2 "Solar BT Speaker Footprints:L_Radial_D14.8mm_P12mm_Wurth" H 4950 4850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/744750560220.pdf" H 4950 4850 50  0001 C CNN
 	1    4950 4850
 	0    -1   -1   0   
 $EndComp
-$Comp
-L SolarBTSpeakerLib:SIRA18ADP U5
-U 1 1 5EADD78B
-P 3650 5700
-F 0 "U5" H 4550 5957 60  0000 C CNN
-F 1 "SIRA18ADP" H 4550 5851 60  0000 C CNN
-F 2 "Package_SO:PowerPAK_SO-8_Single" H 4550 5840 60  0001 C CNN
-F 3 "" H 3950 5700 60  0000 C CNN
-	1    3650 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 6000 3550 6000
-Wire Wire Line
-	3950 5700 3950 5800
-Connection ~ 3950 5800
-Wire Wire Line
-	3950 5800 3950 5900
-Wire Wire Line
-	5150 5700 5150 5800
-Connection ~ 5150 5800
-Wire Wire Line
-	5150 5800 5150 5900
-Connection ~ 5150 5900
-Wire Wire Line
-	5150 5900 5150 6000
 Wire Wire Line
 	3950 5900 3700 5900
 Wire Wire Line
 	3700 5900 3700 6300
-Connection ~ 3950 5900
 Wire Wire Line
 	3550 6300 3700 6300
 Wire Wire Line
@@ -848,7 +821,7 @@ P 4750 5050
 F 0 "C8" H 4841 5096 50  0000 L CNN
 F 1 "68u" H 4841 5005 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4750 5050 50  0001 C CNN
-F 3 "~" H 4750 5050 50  0001 C CNN
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/8157" H 4750 5050 50  0001 C CNN
 	1    4750 5050
 	1    0    0    -1  
 $EndComp
@@ -872,7 +845,7 @@ P 5400 5700
 F 0 "D4" H 5400 5484 50  0000 C CNN
 F 1 "1N5822" H 5400 5575 50  0000 C CNN
 F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 5400 5525 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 5400 5700 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/1N5820-D.PDF" H 5400 5700 50  0001 C CNN
 	1    5400 5700
 	-1   0    0    1   
 $EndComp
@@ -882,8 +855,8 @@ U 1 1 5EB1853F
 P 4250 6550
 F 0 "C28" H 4341 6596 50  0000 L CNN
 F 1 "150u" H 4341 6505 50  0000 L CNN
-F 2 "" H 4250 6550 50  0001 C CNN
-F 3 "~" H 4250 6550 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4250 6550 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/860020373008.pdf" H 4250 6550 50  0001 C CNN
 	1    4250 6550
 	1    0    0    -1  
 $EndComp
@@ -906,7 +879,7 @@ U 1 1 5EB33266
 P 4350 4950
 F 0 "SW2" H 4350 5235 50  0000 C CNN
 F 1 "SW_SPDT" H 4350 5144 50  0000 C CNN
-F 2 "" H 4350 4950 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4350 4950 50  0001 C CNN
 F 3 "~" H 4350 4950 50  0001 C CNN
 	1    4350 4950
 	1    0    0    -1  
@@ -979,7 +952,7 @@ P 9350 5050
 F 0 "C9" H 9441 5096 50  0000 L CNN
 F 1 "100u" H 9441 5005 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 9350 5050 50  0001 C CNN
-F 3 "~" H 9350 5050 50  0001 C CNN
+F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ufw.pdf" H 9350 5050 50  0001 C CNN
 	1    9350 5050
 	1    0    0    -1  
 $EndComp
@@ -1056,7 +1029,7 @@ P 9350 5650
 F 0 "C15" H 9441 5696 50  0000 L CNN
 F 1 "100u" H 9441 5605 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 9350 5650 50  0001 C CNN
-F 3 "~" H 9350 5650 50  0001 C CNN
+F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ufw.pdf" H 9350 5650 50  0001 C CNN
 	1    9350 5650
 	1    0    0    -1  
 $EndComp
@@ -1233,7 +1206,7 @@ P 13350 4000
 F 0 "FB1" V 13113 4000 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 13204 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13280 4000 50  0001 C CNN
-F 3 "~" H 13350 4000 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796736815134/ENFJ0002.pdf" H 13350 4000 50  0001 C CNN
 	1    13350 4000
 	0    1    1    0   
 $EndComp
@@ -1375,7 +1348,7 @@ P 13350 5000
 F 0 "FB2" V 13113 5000 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 13204 5000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13280 5000 50  0001 C CNN
-F 3 "~" H 13350 5000 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796736815134/ENFJ0002.pdf" H 13350 5000 50  0001 C CNN
 	1    13350 5000
 	0    1    1    0   
 $EndComp
@@ -1449,7 +1422,7 @@ P 13350 6000
 F 0 "FB3" V 13113 6000 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 13204 6000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13280 6000 50  0001 C CNN
-F 3 "~" H 13350 6000 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796736815134/ENFJ0002.pdf" H 13350 6000 50  0001 C CNN
 	1    13350 6000
 	0    1    1    0   
 $EndComp
@@ -1526,7 +1499,7 @@ P 13350 7000
 F 0 "FB4" V 13113 7000 50  0000 C CNN
 F 1 "Ferrite_Bead_Small" V 13204 7000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 13280 7000 50  0001 C CNN
-F 3 "~" H 13350 7000 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796736815134/ENFJ0002.pdf" H 13350 7000 50  0001 C CNN
 	1    13350 7000
 	0    1    1    0   
 $EndComp
@@ -2084,8 +2057,8 @@ U 1 1 5F22B9C2
 P 4600 6550
 F 0 "C29" H 4691 6596 50  0000 L CNN
 F 1 "150u" H 4691 6505 50  0000 L CNN
-F 2 "" H 4600 6550 50  0001 C CNN
-F 3 "~" H 4600 6550 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4600 6550 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/860020373008.pdf" H 4600 6550 50  0001 C CNN
 	1    4600 6550
 	1    0    0    -1  
 $EndComp
@@ -2101,4 +2074,78 @@ Wire Wire Line
 Wire Wire Line
 	4600 6750 4250 6750
 Connection ~ 4250 6750
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F2B26A0
+P 9150 4900
+F 0 "#FLG0101" H 9150 4975 50  0001 C CNN
+F 1 "PWR_FLAG" H 9150 5073 50  0000 C CNN
+F 2 "" H 9150 4900 50  0001 C CNN
+F 3 "~" H 9150 4900 50  0001 C CNN
+	1    9150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F2B355B
+P 6250 1850
+F 0 "#FLG0102" H 6250 1925 50  0001 C CNN
+F 1 "PWR_FLAG" H 6250 2023 50  0000 C CNN
+F 2 "" H 6250 1850 50  0001 C CNN
+F 3 "~" H 6250 1850 50  0001 C CNN
+	1    6250 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 1850
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5F2B414C
+P 11450 1450
+F 0 "#FLG0103" H 11450 1525 50  0001 C CNN
+F 1 "PWR_FLAG" H 11450 1623 50  0000 C CNN
+F 2 "" H 11450 1450 50  0001 C CNN
+F 3 "~" H 11450 1450 50  0001 C CNN
+	1    11450 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 11450 1450
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5F2CB6DA
+P 10850 1300
+F 0 "#FLG0105" H 10850 1375 50  0001 C CNN
+F 1 "PWR_FLAG" H 10850 1473 50  0000 C CNN
+F 2 "" H 10850 1300 50  0001 C CNN
+F 3 "~" H 10850 1300 50  0001 C CNN
+	1    10850 1300
+	1    0    0    -1  
+$EndComp
+Connection ~ 10850 1300
+Connection ~ 3950 5900
+Wire Wire Line
+	5150 5900 5150 6000
+Connection ~ 5150 5900
+Connection ~ 5150 5800
+Wire Wire Line
+	5150 5800 5150 5900
+Wire Wire Line
+	5150 5700 5150 5800
+Connection ~ 3950 5800
+Wire Wire Line
+	3950 5800 3950 5900
+Wire Wire Line
+	3950 5700 3950 5800
+Wire Wire Line
+	3950 6000 3550 6000
+$Comp
+L SolarBTSpeakerLib:SIRA18ADP U5
+U 1 1 5EADD78B
+P 3650 5700
+F 0 "U5" H 4550 5957 60  0000 C CNN
+F 1 "SIRA18ADP" H 4550 5851 60  0000 C CNN
+F 2 "Package_SO:PowerPAK_SO-8_Single" H 4550 5840 60  0001 C CNN
+F 3 "http://www.vishay.com/docs/65314/sira18adp.pdf" H 3950 5700 60  0001 C CNN
+	1    3650 5700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
