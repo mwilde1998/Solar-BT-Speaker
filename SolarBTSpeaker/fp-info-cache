@@ -1,4 +1,4 @@
-16937896547909944
+16939484253676606
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -69096,6 +69096,13 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Solar BT Speaker Footprints
+L_Radial_D14.8mm_P12mm_Wurth
+Inductor, Radial series, Radial, pin pitch=12.07mm, , diameter=16.8mm, Vishay, IHB-1, http://www.vishay.com/docs/34015/ihb.pdf
+Inductor Radial series Radial pin pitch 12.07mm  diameter 16.8mm Vishay IHB-1
+0
+2
+2
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
