@@ -1,142 +1,66 @@
-"Source:","C:\Users\mason\GitRepos\Solar Bluetooth Speaker\SolarBTSpeaker\SolarBTSpeaker.sch"
-"Date:","4/24/2020 3:39:55 PM"
-"Tool:","Eeschema (5.1.5)-3"
-"Generator:","C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py"
-"Component Count:","86"
 
-"Individual Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
-"","","C1","0.1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C2","10u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C3","0.1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C4","10u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C5","0.1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C6","1000p","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C7","1000p","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C8","68u","Device:CP1_Small","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","https://b2b-api.panasonic.eu/file_stream/pids/fileversion/8157"
-"","","C9","100u","Device:CP1_Small","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","https://www.nichicon.co.jp/english/products/pdfs/e-ufw.pdf"
-"","","C10","0.1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C11","1000p","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C12","0.1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C13","1000p","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C14","1000p","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C15","100u","Device:CP1_Small","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","https://www.nichicon.co.jp/english/products/pdfs/e-ufw.pdf"
-"","","C16","0.1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C17","1000p","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C18","0.1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C19","0.22u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C20","1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C21","0.22u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C22","1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C23","1000p","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C24","1000p","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C25","0.22u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C26","1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C27","0.22u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C28","150u","Device:CP1_Small","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","https://www.we-online.de/katalog/datasheet/860020373008.pdf"
-"","","C29","150u","Device:CP1_Small","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","https://www.we-online.de/katalog/datasheet/860020373008.pdf"
-"","","C30","1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C31","1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C32","1000p","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C33","1000p","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","C34","1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","D1","1N5822","Diode:1N5822","Diode_THT:D_DO-201AD_P15.24mm_Horizontal","http://www.vishay.com/docs/88526/1n5820.pdf"
-"","","D2","LED","Device:LED","LED_THT:LED_D3.0mm","~"
-"","","D3","LED","Device:LED","LED_THT:LED_D3.0mm","~"
-"","","D4","1N5822","Diode:1N5822","Diode_THT:D_DO-201AD_P15.24mm_Horizontal","https://www.onsemi.com/pub/Collateral/1N5820-D.PDF"
-"","","FB1","Ferrite_Bead_Small","Device:Ferrite_Bead_Small","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","https://www.murata.com/en-us/products/productdata/8796736815134/ENFJ0002.pdf"
-"","","FB2","Ferrite_Bead_Small","Device:Ferrite_Bead_Small","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","https://www.murata.com/en-us/products/productdata/8796736815134/ENFJ0002.pdf"
-"","","FB3","Ferrite_Bead_Small","Device:Ferrite_Bead_Small","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","https://www.murata.com/en-us/products/productdata/8796736815134/ENFJ0002.pdf"
-"","","FB4","Ferrite_Bead_Small","Device:Ferrite_Bead_Small","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","https://www.murata.com/en-us/products/productdata/8796736815134/ENFJ0002.pdf"
-"","","J1","Conn_01x01","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J2","Conn_01x01","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J3","Conn_01x01","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J4","Conn_01x01","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J5","Conn_01x01","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J6","Conn_01x01","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J7","Conn_01x01","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J8","Conn_01x01","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J9","OUT_LEFT+","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J10","OUT_LEFT-","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J11","IN_LEFT+","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J12","IN_LEFT-","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J13","OUT_RIGHT-","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J14","IN_RIGHT-","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J15","OUT_RIGHT+","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J16","IN_RIGHT+","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"","","J17","GAIN_Jumper","Connector_Generic:Conn_01x03","Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical","~"
-"","","L1","22u","Device:L","Solar BT Speaker Footprints:L_Radial_D14.8mm_P12mm_Wurth","https://www.we-online.de/katalog/datasheet/744750560220.pdf"
-"","","R1","330","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","R2","5.1M","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","R3","2.2k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","R4","499","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","R5","7.32k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","R6","5.1M","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","R7","1.5k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","R8","1.5k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","R9","68","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","R10","68","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","R11","68","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","R12","100k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","R13","100k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","R14","68","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","R15","39k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","Rsense1","20m","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","Rtherm1","21.5k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"","","SW1","SW_Input","Switch:SW_DPDT_x2","Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight",""
-"","","SW2","SW_SPDT","Switch:SW_SPDT","Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical","~"
-"","","U1","BQ24210DQCR","BQ24210:BQ24210DQCR","Package_SON:WSON-10-1EP_2x3mm_P0.5mm_EP0.84x2.4mm",""
-"","","U2","BQ29700DSER","BQ2970:BQ29700DSER","Package_SON:WSON-6_1.5x1.5mm_P0.5mm",""
-"","","U3","CSD16404Q5A","CSD16404Q5A:CSD16404Q5A","Package_SON:VSONP-8-1EP_5x6_P1.27mm","http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd16404q5a"
-"","","U4","CSD16404Q5A","CSD16404Q5A:CSD16404Q5A","Package_SON:VSONP-8-1EP_5x6_P1.27mm","http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd16404q5a"
-"","","U5","SIRA18ADP","SolarBTSpeakerLib:SIRA18ADP","Package_SO:PowerPAK_SO-8_Single","http://www.vishay.com/docs/65314/sira18adp.pdf"
-"","","U6","max1771csa+","MAX1771CPA+:max1771cpa+","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","https://datasheets.maximintegrated.com/en/ds/MAX1771.pdf"
-"","","U7","TPA3138D2PWP","TPA3138D2:TPA3138D2PWP","Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm",""
-
-
-
-"Collated Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
-"1","7","C1, C3, C5, C10, C12, C16, C18","0.1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"2","2","C2, C4","10u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"3","10","C6, C7, C11, C13, C14, C17, C23, C24, C32, C33","1000p","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"4","1","C8","68u","Device:CP1_Small","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","https://b2b-api.panasonic.eu/file_stream/pids/fileversion/8157"
-"5","2","C9, C15","100u","Device:CP1_Small","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","https://www.nichicon.co.jp/english/products/pdfs/e-ufw.pdf"
-"6","4","C19, C21, C25, C27","0.22u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"7","6","C20, C22, C26, C30, C31, C34","1u","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"8","2","C28, C29","150u","Device:CP1_Small","Capacitor_THT:CP_Radial_D6.3mm_P2.50mm","https://www.we-online.de/katalog/datasheet/860020373008.pdf"
-"9","2","D1, D4","1N5822","Diode:1N5822","Diode_THT:D_DO-201AD_P15.24mm_Horizontal","http://www.vishay.com/docs/88526/1n5820.pdf"
-"10","2","D2, D3","LED","Device:LED","LED_THT:LED_D3.0mm","~"
-"11","4","FB1, FB2, FB3, FB4","Ferrite_Bead_Small","Device:Ferrite_Bead_Small","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","https://www.murata.com/en-us/products/productdata/8796736815134/ENFJ0002.pdf"
-"12","8","J1, J2, J3, J4, J5, J6, J7, J8","Conn_01x01","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"13","1","J9","OUT_LEFT+","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"14","1","J10","OUT_LEFT-","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"15","1","J11","IN_LEFT+","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"16","1","J12","IN_LEFT-","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"17","1","J13","OUT_RIGHT-","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"18","1","J14","IN_RIGHT-","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"19","1","J15","OUT_RIGHT+","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"20","1","J16","IN_RIGHT+","Connector_Generic:Conn_01x01","Connector_Wire:SolderWirePad_1x01_Drill1.5mm","~"
-"21","1","J17","GAIN_Jumper","Connector_Generic:Conn_01x03","Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical","~"
-"22","1","L1","22u","Device:L","Solar BT Speaker Footprints:L_Radial_D14.8mm_P12mm_Wurth","https://www.we-online.de/katalog/datasheet/744750560220.pdf"
-"23","1","R1","330","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"24","2","R2, R6","5.1M","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"25","1","R3","2.2k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"26","1","R4","499","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"27","1","R5","7.32k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"28","2","R7, R8","1.5k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"29","4","R9, R10, R11, R14","68","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"30","2","R12, R13","100k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"31","1","R15","39k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"32","1","Rsense1","20m","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"33","1","Rtherm1","21.5k","Device:R_Small_US","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","~"
-"34","1","SW1","SW_Input","Switch:SW_DPDT_x2","Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight",""
-"35","1","SW2","SW_SPDT","Switch:SW_SPDT","Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical","~"
-"36","1","U1","BQ24210DQCR","BQ24210:BQ24210DQCR","Package_SON:WSON-10-1EP_2x3mm_P0.5mm_EP0.84x2.4mm",""
-"37","1","U2","BQ29700DSER","BQ2970:BQ29700DSER","Package_SON:WSON-6_1.5x1.5mm_P0.5mm",""
-"38","2","U3, U4","CSD16404Q5A","CSD16404Q5A:CSD16404Q5A","Package_SON:VSONP-8-1EP_5x6_P1.27mm","http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcsd16404q5a"
-"39","1","U5","SIRA18ADP","SolarBTSpeakerLib:SIRA18ADP","Package_SO:PowerPAK_SO-8_Single","http://www.vishay.com/docs/65314/sira18adp.pdf"
-"40","1","U6","max1771csa+","MAX1771CPA+:max1771cpa+","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","https://datasheets.maximintegrated.com/en/ds/MAX1771.pdf"
-"41","1","U7","TPA3138D2PWP","TPA3138D2:TPA3138D2PWP","Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm",""
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>C:\Users\mason\GitRepos\Solar Bluetooth Speaker\SolarBTSpeaker\SolarBTSpeaker.sch</h1>
+    <p>4/26/2020 7:59:59 PM</p>
+    <p>Eeschema (5.1.5)-3</p>
+    <p><b>Component Count:</b>93</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C3, C5, C10, C12, C16, C18</td><td>7</td><td>0.1u</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C2, C4</td><td>2</td><td>10u</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C6, C7, C11, C13, C14, C17, C23, C24, C32, C33</td><td>10</td><td>1000p</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C8</td><td>1</td><td>68u</td><td>Device:CP1_Small</td><td>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</td><td>Polarized capacitor, small US symbol</td><td></td></tr>
+    <tr><td>C9, C15</td><td>2</td><td>100u</td><td>Device:CP1_Small</td><td>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</td><td>Polarized capacitor, small US symbol</td><td></td></tr>
+    <tr><td>C19, C21, C25, C27</td><td>4</td><td>0.22u</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C20, C22, C26, C30, C31, C34</td><td>6</td><td>1u</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C28, C29</td><td>2</td><td>150u</td><td>Device:CP1_Small</td><td>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</td><td>Polarized capacitor, small US symbol</td><td></td></tr>
+    <tr><td>D1, D4</td><td>2</td><td>1N5822</td><td>Diode:1N5822</td><td>Diode_THT:D_DO-201AD_P15.24mm_Horizontal</td><td>40V 3A Schottky Barrier Rectifier Diode, DO-201AD</td><td></td></tr>
+    <tr><td>D2, D3</td><td>2</td><td>LED</td><td>Device:LED</td><td>LED_THT:LED_D3.0mm</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>FB1, FB2, FB3, FB4</td><td>4</td><td>Ferrite_Bead_Small</td><td>Device:Ferrite_Bead_Small</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Ferrite bead, small symbol</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>BAT+</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>BAT-</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>SlrPnl+</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J4</td><td>1</td><td>SlrPnl-</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J5</td><td>1</td><td>USB+</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J6</td><td>1</td><td>USB-</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J7, J8</td><td>2</td><td>ThmCpl</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J9</td><td>1</td><td>OUTL+</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J10</td><td>1</td><td>OUTL-</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J11</td><td>1</td><td>LIN+</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J12</td><td>1</td><td>LIN-</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J13</td><td>1</td><td>OUTR-</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J14</td><td>1</td><td>RIN-</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J15</td><td>1</td><td>OUTR+</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J16</td><td>1</td><td>RIN+</td><td>Connector_Generic:Conn_01x01</td><td>Connector_Wire:SolderWirePad_1x01_Drill1.5mm</td><td>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J17</td><td>1</td><td>GAIN_Jumper</td><td>Connector_Generic:Conn_01x03</td><td>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>L1</td><td>1</td><td>22u</td><td>Device:L</td><td>Solar BT Speaker Footprints:L_Radial_D14.8mm_P12mm_Wurth</td><td>Inductor</td><td></td></tr>
+    <tr><td>R1</td><td>1</td><td>330</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R2, R6</td><td>2</td><td>5.1M</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R3</td><td>1</td><td>2.2k</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R4</td><td>1</td><td>499</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R5</td><td>1</td><td>7.32k</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R7, R8</td><td>2</td><td>1.5k</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R9, R10, R11, R14</td><td>4</td><td>68</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R12, R13</td><td>2</td><td>100k</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>R15</td><td>1</td><td>39k</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>Rsense1</td><td>1</td><td>20m</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>Rth1</td><td>1</td><td>21.5k</td><td>Device:R_Small_US</td><td>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</td><td>Resistor, small US symbol</td><td></td></tr>
+    <tr><td>SW1</td><td>1</td><td>SW_Power</td><td>Switch:SW_DPDT_x2</td><td>Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight</td><td>Switch, dual pole double throw, separate symbols</td><td></td></tr>
+    <tr><td>SW2</td><td>1</td><td>SW_AMP</td><td>Switch:SW_SPDT</td><td>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</td><td>Switch, single pole double throw</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>BQ24210DQCR</td><td>BQ24210:BQ24210DQCR</td><td>Package_SON:WSON-10-1EP_2x3mm_P0.5mm_EP0.84x2.4mm</td><td></td><td></td></tr>
+    <tr><td>U2</td><td>1</td><td>BQ29700DSER</td><td>BQ2970:BQ29700DSER</td><td>Package_SON:WSON-6_1.5x1.5mm_P0.5mm</td><td></td><td></td></tr>
+    <tr><td>U3, U4</td><td>2</td><td>CSD16404Q5A</td><td>CSD16404Q5A:CSD16404Q5A</td><td>Package_SON:VSONP-8-1EP_5x6_P1.27mm</td><td></td><td></td></tr>
+    <tr><td>U5</td><td>1</td><td>SIRA18ADP</td><td>SolarBTSpeakerLib:SIRA18ADP</td><td>Package_SO:PowerPAK_SO-8_Single</td><td>N-Channel 30V 30A (D-S) MOSFET</td><td></td></tr>
+    <tr><td>U6</td><td>1</td><td>max1771csa+</td><td>MAX1771CPA+:max1771cpa+</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td></td><td></td></tr>
+    <tr><td>U7</td><td>1</td><td>TPA3138D2PWP</td><td>TPA3138D2:TPA3138D2PWP</td><td>Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm</td><td></td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
